@@ -30,5 +30,11 @@ class LogikaKalkulatoraTest {
         var result = logika.oblicz(3, 7, "*");
         assertEquals(21, result);
     }
+	
+	@Test
+    void testDziel() {
+        var result = logika.oblicz(14, 7, "/");
+        assertEquals(2, result);
+    }
 
 }
